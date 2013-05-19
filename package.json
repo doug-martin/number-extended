@@ -1,0 +1,43 @@
+{
+    "name": "number-extended",
+    "version": "0.0.1",
+    "description": "Number utilities",
+    "main": "index.js",
+    "scripts": {
+        "test": "it -r dot"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git:git@github.com:doug-martin/number-extended.git"
+    },
+    "keywords": [
+        "Number",
+        "round",
+        "extender",
+        "utilities"
+    ],
+    "testling": {
+        "files": "test/browserling.js",
+        "browsers": [
+            "ie/8..latest",
+            "chrome/20..latest",
+            "firefox/14..latest",
+            "safari/latest",
+            "iphone/6",
+            "ipad/6"
+        ]
+    },
+    "author": "Doug Martin",
+    "license": "MIT",
+    "dependencies": {
+        "extended": "~0.0.3",
+        "is-extended": "~0.0.3",
+        "grunt": "~0.4.1"
+    },
+    "devDependencies": {
+        "it": "~0.2.0",
+        "grunt-it": "~0.3.0",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-jshint": "~0.4.3"
+    }
+}
