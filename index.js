@@ -29,7 +29,7 @@
             module.exports = defineNumber(require("extended"), require("is-extended"));
 
         }
-    } else if ("function" === typeof define) {
+    } else if ("function" === typeof define && define.amd) {
         define(["extended", "is-extended", "array-extended", "arguments-extended"], function (extended, is) {
             return defineNumber(extended, is);
         });

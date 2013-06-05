@@ -1,6 +1,6 @@
 {
     "name": "number-extended",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Number utilities",
     "main": "index.js",
     "scripts": {
